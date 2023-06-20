@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Exploring XML and Binary Serialization</title>
+      <link>http://mynguy.github.io/posts/post5/</link>
+      <pubDate>Mon, 08 May 2023 14:11:47 -0400</pubDate>
+      
+      <guid>http://mynguy.github.io/posts/post5/</guid>
+      <description>Today I had the opportunity to meet with Dr. Bowring to delve deeper into XML and binary serialization. Dr. Bowring provided invaluable guidance on how to structure the code by creating separate classes outside the main program. Additionally, we reviewed my JUnit testing for these new classes to ensure accuracy and identify any discrepancies. This blog post will walk you through our discussion and highlight the progress we made towards developing a multi-modular Gradle project for my movie class, paving the way for an exciting GUI application using JavaFX.</description>
+    </item>
+    
+    <item>
       <title>Exploring Serialization and Deserialization in Java: A Movie Serialization Project</title>
       <link>http://mynguy.github.io/posts/post3/</link>
       <pubDate>Mon, 24 Apr 2023 22:11:47 -0400</pubDate>
