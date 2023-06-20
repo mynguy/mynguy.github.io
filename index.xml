@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Nguyen Blog</title>
+    <link>http://mynguy.github.io/</link>
+    <description>Recent content on My Nguyen Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Apr 2023 22:11:47 -0400</lastBuildDate><atom:link href="http://mynguy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring Serialization and Deserialization in Java: A Movie Serialization Project</title>
+      <link>http://mynguy.github.io/posts/post3/</link>
+      <pubDate>Mon, 24 Apr 2023 22:11:47 -0400</pubDate>
+      
+      <guid>http://mynguy.github.io/posts/post3/</guid>
+      <description>In this blog post, I will share my experience working on a serialization and deserialization Java project assigned to me by Dr. Bowring. The project aimed to enhance my understanding of these processes and improve my coding skills. I chose to create a simple movie serialization project, where I serialized and deserialized movie objects containing information such as name, genre, and release date. Throughout the project, I encountered various challenges and sought to improve the code&amp;rsquo;s dynamism, organization, and user-friendliness based on Dr.</description>
+    </item>
+    
+    <item>
+      <title>Embarking on a Journey into Computer Vision and Machine Learning</title>
+      <link>http://mynguy.github.io/posts/post2/</link>
+      <pubDate>Sun, 09 Apr 2023 19:28:43 -0400</pubDate>
+      
+      <guid>http://mynguy.github.io/posts/post2/</guid>
+      <description>I recently had an initial meeting with a family friend who introduced a fascinating project idea that combines computer vision and machine learning. While my knowledge in the field of computer vision is limited, I felt a surge of anticipation at the prospect of diving into this realm and learning more.
+Our first day together was dedicated to setting up our work environments, establishing meeting schedules, and determining the framework for our project.</description>
+    </item>
+    
+    <item>
+      <title>Nurturing Growth: My First Meeting with Dr. Jim Bowring</title>
+      <link>http://mynguy.github.io/posts/post1/</link>
+      <pubDate>Fri, 07 Apr 2023 11:28:06 -0400</pubDate>
+      
+      <guid>http://mynguy.github.io/posts/post1/</guid>
+      <description>Today marked a significant milestone in my development journey as I had the privilege of meeting Dr. Jim Bowring, the esteemed head of the Cyber Infrastructure Research and Development Lab for the Earth Sciences (CIRDLES.org). Under his guidance, I aspire to expand my knowledge of git commands, embrace coding best practices, and evolve as a proficient developer.
+With the arrival of summer, I have resolved to document my learning process and track my progress through GitHub Pages, utilizing it as a platform to share my experiences and insights.</description>
+    </item>
+    
+  </channel>
+</rss>
