@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-    <title>Exploring XML and Binary Serialization // My Nguyen Blog</title>
+    <title>Building a Multi-Modular Gradle-Based Application for Serialization and Deserialization // My Nguyen Blog</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.111.3">
@@ -12,15 +12,15 @@
 
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Exploring XML and Binary Serialization"/>
-<meta name="twitter:description" content="Today I had the opportunity to meet with Dr. Bowring to delve deeper into XML and binary serialization. Dr. Bowring provided invaluable guidance on how to structure the code by creating separate classes outside the main program. Additionally, we reviewed my JUnit testing for these new classes to ensure accuracy and identify any discrepancies. This blog post will walk you through our discussion and highlight the progress we made towards developing a multi-modular Gradle project for my movie class, paving the way for an exciting GUI application using JavaFX."/>
+<meta name="twitter:title" content="Building a Multi-Modular Gradle-Based Application for Serialization and Deserialization"/>
+<meta name="twitter:description" content="I am thrilled to share the progress of my latest project—a multi-modular Gradle-based movie application that focuses on serialization and deserialization. This project has reached an exciting milestone as I successfully created a graphical user interface (GUI) for the application. I have rebranded the project repository, now known as &ldquo;movieGradle,&rdquo; which can be found on my GitHub at github.com/mynguy. The project&rsquo;s README provides comprehensive information about the application and its functionalities."/>
 
-    <meta property="og:title" content="Exploring XML and Binary Serialization" />
-<meta property="og:description" content="Today I had the opportunity to meet with Dr. Bowring to delve deeper into XML and binary serialization. Dr. Bowring provided invaluable guidance on how to structure the code by creating separate classes outside the main program. Additionally, we reviewed my JUnit testing for these new classes to ensure accuracy and identify any discrepancies. This blog post will walk you through our discussion and highlight the progress we made towards developing a multi-modular Gradle project for my movie class, paving the way for an exciting GUI application using JavaFX." />
+    <meta property="og:title" content="Building a Multi-Modular Gradle-Based Application for Serialization and Deserialization" />
+<meta property="og:description" content="I am thrilled to share the progress of my latest project—a multi-modular Gradle-based movie application that focuses on serialization and deserialization. This project has reached an exciting milestone as I successfully created a graphical user interface (GUI) for the application. I have rebranded the project repository, now known as &ldquo;movieGradle,&rdquo; which can be found on my GitHub at github.com/mynguy. The project&rsquo;s README provides comprehensive information about the application and its functionalities." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://mynguy.github.io/posts/post5/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-05-23T14:11:47-04:00" />
-<meta property="article:modified_time" content="2023-05-23T14:11:47-04:00" />
+<meta property="article:published_time" content="2023-06-05T10:07:33-04:00" />
+<meta property="article:modified_time" content="2023-06-05T10:07:33-04:00" />
 
 
   </head>
@@ -51,14 +51,14 @@
       
   <article class="post">
     <header class="post-header">
-      <h1 class ="post-title">Exploring XML and Binary Serialization</h1>
+      <h1 class ="post-title">Building a Multi-Modular Gradle-Based Application for Serialization and Deserialization</h1>
       <div class="post-meta">
         <div>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
   <title>calendar</title>
   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
 </svg>
-          May 23, 2023
+          Jun 5, 2023
         </div>
         <div>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
@@ -70,15 +70,16 @@
       </div>
     </header>
     <div class="post-content">
-      <p>Today I had the opportunity to meet with Dr. Bowring to delve deeper into XML and binary serialization. Dr. Bowring provided invaluable guidance on how to structure the code by creating separate classes outside the main program. Additionally, we reviewed my JUnit testing for these new classes to ensure accuracy and identify any discrepancies. This blog post will walk you through our discussion and highlight the progress we made towards developing a multi-modular Gradle project for my movie class, paving the way for an exciting GUI application using JavaFX.</p>
-<p><strong>XML and Binary Serialization:</strong>    <br>
-Serialization is a crucial aspect of modern programming, allowing us to convert objects into a format suitable for storage or transmission. Today, we focused on XML and binary serialization techniques. Dr. Bowring shared expert tips on creating dedicated classes outside the main program to handle these serialization tasks efficiently. This approach not only improves code organization but also enhances reusability and maintainability.</p>
-<p>Ensuring the correctness of our code is of utmost importance. Dr. Bowring took the time to review my JUnit tests for the newly created classes. This thorough examination aimed to identify any discrepancies or errors that might hinder the functionality of the serialization process. By following best practices in testing, we can confidently deliver reliable and robust code.</p>
-<p><strong>Multi-Modular Gradle Project:</strong>    <br>
-Taking our progress into account, Dr. Bowring introduced me to the concept of a multi-modular Gradle project. We started by creating two modules: &ldquo;core&rdquo; and &ldquo;app&rdquo; (leveraging the power of JavaFX). This modular approach allows for a clear separation of concerns and facilitates better project organization. The &ldquo;core&rdquo; module acts as the foundation, containing the essential classes for the movie set serialization project. The &ldquo;app&rdquo; module, on the other hand, focuses on the GUI aspect, employing JavaFX to provide a visually appealing and user-friendly interface.</p>
-<p>With the groundwork laid, I was assigned the exciting task of diving into JavaFX and initiating the GUI side of the project. JavaFX is a powerful framework for building cross-platform desktop applications, known for its rich set of graphical controls and seamless integration with Java. The prospect of creating an intuitive and visually appealing interface for our movie set serialization project has ignited my curiosity and enthusiasm.</p>
-<p>Conclusion:
-Today&rsquo;s meeting with Dr. Bowring was incredibly productive. We explored XML and binary serialization techniques, ensuring our code is structured efficiently and tested thoroughly. The introduction of a multi-modular Gradle project lays the foundation for our upcoming GUI application, built with the help of JavaFX. As I embark on this exciting journey of GUI development, I am eager to apply the knowledge and guidance provided by Dr. Bowring. Stay tuned for further updates on the progress of our movie set serialization project and the evolution of our JavaFX-based GUI.</p>
+      <p>I am thrilled to share the progress of my latest project—a multi-modular Gradle-based movie application that focuses on serialization and deserialization. This project has reached an exciting milestone as I successfully created a graphical user interface (GUI) for the application. I have rebranded the project repository, now known as &ldquo;movieGradle,&rdquo; which can be found on my GitHub at <em>github.com/mynguy</em>. The project&rsquo;s README provides comprehensive information about the application and its functionalities. In this blog post, I will delve into the details of this user-friendly interface, which enables users to enter movie details such as name, release year, and genre. These details can be converted into CSV, binary, and XML files, with the added flexibility of choosing the desired save location. Additionally, I have implemented a &ldquo;Help&rdquo; button to provide users with guidance on using the application effectively. Let&rsquo;s explore the features and highlights of this movie application.</p>
+<p><strong>Creating the GUI with Gradle and JavaFX:</strong>
+Developing the GUI for this movie application was a significant breakthrough in the project. I encountered initial challenges related to dependencies involving Gradle and JavaFX. However, with dedicated research and patience, I successfully resolved these issues. The application now boasts a user-friendly interface that simplifies the process of entering movie details and performing serialization and deserialization tasks. Through the GUI, users can effortlessly interact with the application, enhancing their overall experience.</p>
+<p><strong>Rebranding the Repository and Project Structure:</strong>
+To better reflect the project&rsquo;s objectives and current state, I rebranded the project repository as &ldquo;movieGradle.&rdquo; This repository serves as the central hub for accessing the project&rsquo;s source code, documentation, and updates. By organizing the project in a modular fashion, utilizing Gradle for efficient dependency management, and leveraging JavaFX for the GUI, the application&rsquo;s structure is optimized for scalability and ease of maintenance.</p>
+<p><strong>Functionalities and File Formats:</strong>
+The movie application enables users to input essential details of their movies, including the name, release year, and genre. These details are then processed and converted into different file formats such as CSV, binary, and XML. Users have the flexibility to choose the desired save location, ensuring easy access to the serialized movie data. Additionally, I have incorporated user-friendly features, including informative titles and a &ldquo;Help&rdquo; button, to guide users throughout the application.</p>
+<p><strong>Continued Development and Future Prospects:</strong>
+As the project progresses, I am dedicated to enhancing the movie application further. I plan to expand the range of file formats supported for serialization and deserialization, providing users with more options and flexibility. Additionally, I aim to optimize the application&rsquo;s performance and user interface, ensuring a seamless and enjoyable experience for movie enthusiasts. The project&rsquo;s modular structure, powered by Gradle, lays the foundation for incorporating additional features and expanding its functionalities in the future.</p>
+<p>In this blog post, I shared the exciting progress of my multi-modular Gradle-based movie application for serialization and deserialization. By successfully creating a GUI and overcoming challenges related to Gradle and JavaFX dependencies, I have achieved a significant milestone. The &ldquo;movieGradle&rdquo; repository on GitHub provides comprehensive information about the application and its functionalities. Users can easily enter movie details, convert them into different file formats, and choose their preferred save location. With features like informative titles and a &ldquo;Help&rdquo; button, the application ensures a user-friendly experience. I am committed to further improving the application&rsquo;s capabilities and usability. Stay tuned for more updates and enhancements in this exciting movie application project.</p>
 
     </div>
     <div class="post-footer">

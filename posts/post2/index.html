@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-    <title>Embarking on a Journey into Computer Vision and Machine Learning // My Nguyen Blog</title>
+    <title>Exploring Serialization and Deserialization in Java: A Movie Serialization Project // My Nguyen Blog</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.111.3">
@@ -12,17 +12,15 @@
 
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Embarking on a Journey into Computer Vision and Machine Learning"/>
-<meta name="twitter:description" content="I recently had an initial meeting with a family friend who introduced a fascinating project idea that combines computer vision and machine learning. While my knowledge in the field of computer vision is limited, I felt a surge of anticipation at the prospect of diving into this realm and learning more.
-Our first day together was dedicated to setting up our work environments, establishing meeting schedules, and determining the framework for our project."/>
+<meta name="twitter:title" content="Exploring Serialization and Deserialization in Java: A Movie Serialization Project"/>
+<meta name="twitter:description" content="In this blog post, I will share my experience working on a serialization and deserialization Java project assigned to me by Dr. Bowring. The project aimed to enhance my understanding of these processes and improve my coding skills. I chose to create a simple movie serialization project, where I serialized and deserialized movie objects containing information such as name, genre, and release date. Throughout the project, I encountered various challenges and sought to improve the code&rsquo;s dynamism, organization, and user-friendliness based on Dr."/>
 
-    <meta property="og:title" content="Embarking on a Journey into Computer Vision and Machine Learning" />
-<meta property="og:description" content="I recently had an initial meeting with a family friend who introduced a fascinating project idea that combines computer vision and machine learning. While my knowledge in the field of computer vision is limited, I felt a surge of anticipation at the prospect of diving into this realm and learning more.
-Our first day together was dedicated to setting up our work environments, establishing meeting schedules, and determining the framework for our project." />
+    <meta property="og:title" content="Exploring Serialization and Deserialization in Java: A Movie Serialization Project" />
+<meta property="og:description" content="In this blog post, I will share my experience working on a serialization and deserialization Java project assigned to me by Dr. Bowring. The project aimed to enhance my understanding of these processes and improve my coding skills. I chose to create a simple movie serialization project, where I serialized and deserialized movie objects containing information such as name, genre, and release date. Throughout the project, I encountered various challenges and sought to improve the code&rsquo;s dynamism, organization, and user-friendliness based on Dr." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://mynguy.github.io/posts/post2/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-04-09T19:28:43-04:00" />
-<meta property="article:modified_time" content="2023-04-09T19:28:43-04:00" />
+<meta property="article:published_time" content="2023-04-24T22:11:47-04:00" />
+<meta property="article:modified_time" content="2023-04-24T22:11:47-04:00" />
 
 
   </head>
@@ -53,30 +51,37 @@ Our first day together was dedicated to setting up our work environments, establ
       
   <article class="post">
     <header class="post-header">
-      <h1 class ="post-title">Embarking on a Journey into Computer Vision and Machine Learning</h1>
+      <h1 class ="post-title">Exploring Serialization and Deserialization in Java: A Movie Serialization Project</h1>
       <div class="post-meta">
         <div>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
   <title>calendar</title>
   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
 </svg>
-          Apr 9, 2023
+          Apr 24, 2023
         </div>
         <div>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
   <title>clock</title>
   <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
 </svg>
-          2 min read
+          3 min read
         </div>
       </div>
     </header>
     <div class="post-content">
-      <p>I recently had an initial meeting with a family friend who introduced a fascinating project idea that combines computer vision and machine learning. While my knowledge in the field of computer vision is limited, I felt a surge of anticipation at the prospect of diving into this realm and learning more.</p>
-<p>Our first day together was dedicated to setting up our work environments, establishing meeting schedules, and determining the framework for our project. Inspired by an agile approach, I proposed implementing SCRUM methodology and facilitated the creation of a Trello board to streamline our organization and effectively track our progress. During this initial phase, we engaged in detailed discussions about the project&rsquo;s overall scope, strategizing how to break it down into manageable phases, and devising plans to ensure continuous learning and staying ahead of the curve.</p>
-<p>Following that, we redirected our attention towards conducting comprehensive research on YOLOv8, an innovative computer vision framework widely acclaimed for its exceptional capabilities. This cutting-edge framework promises to play a pivotal role in our project&rsquo;s success. Moreover, we delved into exploring CVAT, an impressive annotation tool with immense potential to enhance our project. The utilization of CVAT holds the promise of streamlining our annotation process and enabling more efficient training of our machine learning models.</p>
-<p>As we embark on this journey into the fascinating realms of computer vision and machine learning, I am thrilled to share my progress and insights through this blog. Each step of our collaborative exploration will be meticulously documented, highlighting our triumphs, hurdles, and the invaluable lessons we gather along the way.</p>
-<p>Stay tuned for forthcoming blog entries that delve deeper into our research, experimentation, and the incredible possibilities that computer vision and machine learning offer.</p>
+      <p>In this blog post, I will share my experience working on a serialization and deserialization Java project assigned to me by Dr. Bowring. The project aimed to enhance my understanding of these processes and improve my coding skills. I chose to create a simple movie serialization project, where I serialized and deserialized movie objects containing information such as name, genre, and release date. Throughout the project, I encountered various challenges and sought to improve the code&rsquo;s dynamism, organization, and user-friendliness based on Dr. Bowring&rsquo;s feedback. I documented my progress on GitHub, under the repository name &ldquo;SerializationDeserialization.&rdquo; Additionally, Dr. Bowring recommended learning about Gradle, which I began exploring as part of my homework. Let&rsquo;s dive into my journey of building this project.</p>
+<p>Serialization is the process of converting an object into a byte stream, allowing it to be easily stored, transmitted, or persisted. Deserialization, on the other hand, is the reverse process of reconstructing the object from the serialized byte stream. These processes are fundamental in many applications, especially when dealing with data persistence, network communication, or inter-process communication.</p>
+<p>Project Overview:
+My project focused on serializing and deserializing movie objects. Each movie object contained three essential attributes: name, genre, and release date. By serializing these objects, I aimed to create a byte stream that could be stored or transmitted efficiently, while deserialization would allow me to reconstruct the movie objects from the byte stream.</p>
+<p>Challenges and Problem Solving:
+During the project, I encountered several challenges, but I approached them as opportunities for growth. Some of the challenges I faced included:</p>
+<p>Dynamism: Initially, my code was rigid and lacked flexibility. Dr. Bowring suggested exploring ways to make the code more dynamic, allowing it to handle varying movie objects and attributes. To address this, I implemented a generic approach that would work with different object types and adapt to changes in the movie attributes.</p>
+<p>Organization: As the project progressed, I realized the importance of well-organized code. I refactored my code to separate concerns, creating separate classes for serialization, deserialization, and movie objects. This modular approach enhanced code readability and maintainability.</p>
+<p>To maintain a record of my progress and facilitate future reference, I documented my project on GitHub. I created a repository named &ldquo;SerializationDeserialization,&rdquo; where I regularly committed my code changes and provided detailed explanations in the README file. Moreover, I incorporated Javadoc comments throughout the code to document its functionality, inputs, and outputs. This documentation would serve as a valuable resource for myself and others interested in the project.</p>
+<p>Exploring Gradle:
+As part of my homework, I began exploring Gradle, a popular build automation tool. Dr. Bowring referred me to a tutorial by Tom Gregory, which I found helpful for understanding Gradle&rsquo;s capabilities and its integration into Java projects. Gradle offers powerful features for managing dependencies, building, and testing applications, streamlining the development process.</p>
+<p>Working on the serialization and deserialization Java project has been a valuable learning experience. Through challenges and problem-solving, I enhanced my understanding of dynamism, code organization, and user-friendliness. The use of GitHub and Javadoc documentation ensured proper record-keeping and improved the project&rsquo;s maintainability. Additionally, my exploration of Gradle opened up new avenues for efficient project management. I am excited to discuss my progress and share my learnings with Dr. Bowring in our next meeting.</p>
 
     </div>
     <div class="post-footer">

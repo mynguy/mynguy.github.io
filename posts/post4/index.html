@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-    <title>Advancing Serialization and Deserialization with Gradle: Serializing Sets of Movies // My Nguyen Blog</title>
+    <title>Enhancing XML and Binary Serialization in Gradle-based Project // My Nguyen Blog</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.111.3">
@@ -12,15 +12,15 @@
 
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Advancing Serialization and Deserialization with Gradle: Serializing Sets of Movies"/>
-<meta name="twitter:description" content="In this blog post, I will provide an update on my serialization and deserialization Java project under the guidance of Dr. Bowring. During our recent meeting, I presented an upgraded version of the project, now utilizing Gradle for enhanced project management. Additionally, Dr. Bowring assigned me the task of serializing sets of movies, making the project more complex. We also focused on code refinement to improve readability. Furthermore, Dr. Bowring introduced me to JUnit testing."/>
+<meta name="twitter:title" content="Enhancing XML and Binary Serialization in Gradle-based Project"/>
+<meta name="twitter:description" content="Today I had the opportunity to meet with Dr. Bowring to delve deeper into XML and binary serialization. Dr. Bowring provided invaluable guidance on how to structure the code by creating separate classes outside the main program. Additionally, we reviewed my JUnit testing for these new classes to ensure accuracy and identify any discrepancies. This blog post will walk you through our discussion and highlight the progress we made towards developing a multi-modular Gradle project for my movie class, paving the way for an exciting GUI application using JavaFX."/>
 
-    <meta property="og:title" content="Advancing Serialization and Deserialization with Gradle: Serializing Sets of Movies" />
-<meta property="og:description" content="In this blog post, I will provide an update on my serialization and deserialization Java project under the guidance of Dr. Bowring. During our recent meeting, I presented an upgraded version of the project, now utilizing Gradle for enhanced project management. Additionally, Dr. Bowring assigned me the task of serializing sets of movies, making the project more complex. We also focused on code refinement to improve readability. Furthermore, Dr. Bowring introduced me to JUnit testing." />
+    <meta property="og:title" content="Enhancing XML and Binary Serialization in Gradle-based Project" />
+<meta property="og:description" content="Today I had the opportunity to meet with Dr. Bowring to delve deeper into XML and binary serialization. Dr. Bowring provided invaluable guidance on how to structure the code by creating separate classes outside the main program. Additionally, we reviewed my JUnit testing for these new classes to ensure accuracy and identify any discrepancies. This blog post will walk you through our discussion and highlight the progress we made towards developing a multi-modular Gradle project for my movie class, paving the way for an exciting GUI application using JavaFX." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://mynguy.github.io/posts/post4/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-05-08T14:11:47-04:00" />
-<meta property="article:modified_time" content="2023-05-08T14:11:47-04:00" />
+<meta property="article:published_time" content="2023-05-23T14:11:47-04:00" />
+<meta property="article:modified_time" content="2023-05-23T14:11:47-04:00" />
 
 
   </head>
@@ -51,14 +51,14 @@
       
   <article class="post">
     <header class="post-header">
-      <h1 class ="post-title">Advancing Serialization and Deserialization with Gradle: Serializing Sets of Movies</h1>
+      <h1 class ="post-title">Enhancing XML and Binary Serialization in Gradle-based Project</h1>
       <div class="post-meta">
         <div>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
   <title>calendar</title>
   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
 </svg>
-          May 8, 2023
+          May 23, 2023
         </div>
         <div>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
@@ -70,17 +70,15 @@
       </div>
     </header>
     <div class="post-content">
-      <p>In this blog post, I will provide an update on my serialization and deserialization Java project under the guidance of Dr. Bowring. During our recent meeting, I presented an upgraded version of the project, now utilizing Gradle for enhanced project management. Additionally, Dr. Bowring assigned me the task of serializing sets of movies, making the project more complex. We also focused on code refinement to improve readability. Furthermore, Dr. Bowring introduced me to JUnit testing. Moreover, Dr. Bowring assigned me the task of implementing XML and binary serialization as homework, expanding the project&rsquo;s capabilities. If you&rsquo;re interested in following my project, you can find it on my GitHub repository named &ldquo;GradleSerialDeserial.&rdquo; Let&rsquo;s delve into the details of my progress.</p>
-<p><strong>Using Gradle for Project Management:</strong> <br>
-In response to Dr. Bowring&rsquo;s suggestion, I migrated my serialization and deserialization project to Gradle. Gradle is a powerful build automation tool that simplifies dependency management, project building, and testing. With Gradle, I organized my project more effectively, ensuring adherence to industry-standard practices and facilitating future scalability.</p>
-<p>Dr. Bowring challenged me to serialize sets of movies rather than individual movies, adding complexity to the project. This required modifications to the existing codebase to handle collections of movie objects efficiently. I redesigned the serialization and deserialization methods to accommodate sets, ensuring that the byte stream accurately represented the entire movie collection.</p>
-<p>During our meeting, Dr. Bowring and I reviewed the codebase to enhance readability and maintainability. We focused on improving the code structure and employing appropriate naming conventions. By refactoring the code, we made it more comprehensible, reducing the likelihood of errors or confusion. Clear and concise code is essential for personal understanding, collaboration with other developers, and long-term project maintenance.</p>
-<p><strong>Introduction to JUnit Testing:</strong>   <br>
-Dr. Bowring introduced me to JUnit testing, a popular testing framework for Java applications. We discussed the significance of testing classes and methods to verify their functionality and identify potential bugs early in the development process. By writing test cases using JUnit, I could ensure the correctness of my code without relying on a separate driver class. This approach streamlined testing and improved the overall quality of the project.</p>
-<p>Implementing XML and Binary Serialization (Homework):
-As part of my homework assignment, Dr. Bowring tasked me with implementing XML and binary serialization in my project. XML serialization involves converting objects into XML format, allowing them to be easily stored and shared. Binary serialization entails converting objects into binary format for efficient storage and transmission. These serialization techniques will expand the capabilities of the project and provide me with valuable insights into different serialization approaches.</p>
-<p>The inclusion of Gradle, serialization of sets of movies, and the upcoming implementation of XML and binary serialization present exciting advancements in my project. Gradle has provided a powerful tool for managing dependencies and automating tasks, which will be valuable for future projects. Serializing sets of movies has enhanced the project&rsquo;s complexity and functionality. Moreover, the upcoming implementation of XML and binary serialization will broaden my knowledge of serialization techniques.</p>
-<p>In this update on my serialization and deserialization project, I shared my progress in migrating the project to Gradle, serializing sets of movies, refining the codebase, and introducing JUnit testing. Additionally, Dr. Bowring assigned me the task of implementing XML and binary serialization as homework, expanding the project&rsquo;s capabilities and providing an opportunity for further learning. You can track the development of my project on my GitHub repository &ldquo;GradleSerialDeserial</p>
+      <p>Today I had the opportunity to meet with Dr. Bowring to delve deeper into XML and binary serialization. Dr. Bowring provided invaluable guidance on how to structure the code by creating separate classes outside the main program. Additionally, we reviewed my JUnit testing for these new classes to ensure accuracy and identify any discrepancies. This blog post will walk you through our discussion and highlight the progress we made towards developing a multi-modular Gradle project for my movie class, paving the way for an exciting GUI application using JavaFX.</p>
+<p><strong>XML and Binary Serialization:</strong>    <br>
+Serialization is a crucial aspect of modern programming, allowing us to convert objects into a format suitable for storage or transmission. Today, we focused on XML and binary serialization techniques. Dr. Bowring shared expert tips on creating dedicated classes outside the main program to handle these serialization tasks efficiently. This approach not only improves code organization but also enhances reusability and maintainability.</p>
+<p>Ensuring the correctness of our code is of utmost importance. Dr. Bowring took the time to review my JUnit tests for the newly created classes. This thorough examination aimed to identify any discrepancies or errors that might hinder the functionality of the serialization process. By following best practices in testing, we can confidently deliver reliable and robust code.</p>
+<p><strong>Multi-Modular Gradle Project:</strong>    <br>
+Taking our progress into account, Dr. Bowring introduced me to the concept of a multi-modular Gradle project. We started by creating two modules: &ldquo;core&rdquo; and &ldquo;app&rdquo; (leveraging the power of JavaFX). This modular approach allows for a clear separation of concerns and facilitates better project organization. The &ldquo;core&rdquo; module acts as the foundation, containing the essential classes for the movie set serialization project. The &ldquo;app&rdquo; module, on the other hand, focuses on the GUI aspect, employing JavaFX to provide a visually appealing and user-friendly interface.</p>
+<p>With the groundwork laid, I was assigned the exciting task of diving into JavaFX and initiating the GUI side of the project. JavaFX is a powerful framework for building cross-platform desktop applications, known for its rich set of graphical controls and seamless integration with Java. The prospect of creating an intuitive and visually appealing interface for our movie set serialization project has ignited my curiosity and enthusiasm.</p>
+<p>Conclusion:
+Today&rsquo;s meeting with Dr. Bowring was incredibly productive. We explored XML and binary serialization techniques, ensuring our code is structured efficiently and tested thoroughly. The introduction of a multi-modular Gradle project lays the foundation for our upcoming GUI application, built with the help of JavaFX. As I embark on this exciting journey of GUI development, I am eager to apply the knowledge and guidance provided by Dr. Bowring. Stay tuned for further updates on the progress of our movie set serialization project and the evolution of our JavaFX-based GUI.</p>
 
     </div>
     <div class="post-footer">

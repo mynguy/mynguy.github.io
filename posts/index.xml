@@ -6,40 +6,67 @@
     <description>Recent content in Posts on My Nguyen Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 May 2023 14:11:47 -0400</lastBuildDate><atom:link href="http://mynguy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Jun 2023 14:13:20 -0400</lastBuildDate><atom:link href="http://mynguy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Exploring XML and Binary Serialization</title>
+      <title>Journey into Computer Vision and Machine Learning Part III</title>
+      <link>http://mynguy.github.io/posts/post6/</link>
+      <pubDate>Tue, 06 Jun 2023 14:13:20 -0400</pubDate>
+      
+      <guid>http://mynguy.github.io/posts/post6/</guid>
+      <description>It has been an eventful month since my last update on our computer vision and machine learning project. Our team has made significant progress, particularly in understanding and utilizing YOLOv8 to train and create powerful computer vision models. In this blog post, I will share the latest developments in our project, including our transition to Roboflow, a user-friendly software platform that has provided us with invaluable resources for training and deploying models.</description>
+    </item>
+    
+    <item>
+      <title>Building a Multi-Modular Gradle-Based Application for Serialization and Deserialization</title>
       <link>http://mynguy.github.io/posts/post5/</link>
-      <pubDate>Tue, 23 May 2023 14:11:47 -0400</pubDate>
+      <pubDate>Mon, 05 Jun 2023 10:07:33 -0400</pubDate>
       
       <guid>http://mynguy.github.io/posts/post5/</guid>
+      <description>I am thrilled to share the progress of my latest project—a multi-modular Gradle-based movie application that focuses on serialization and deserialization. This project has reached an exciting milestone as I successfully created a graphical user interface (GUI) for the application. I have rebranded the project repository, now known as &amp;ldquo;movieGradle,&amp;rdquo; which can be found on my GitHub at github.com/mynguy. The project&amp;rsquo;s README provides comprehensive information about the application and its functionalities.</description>
+    </item>
+    
+    <item>
+      <title>Enhancing XML and Binary Serialization in Gradle-based Project</title>
+      <link>http://mynguy.github.io/posts/post4/</link>
+      <pubDate>Tue, 23 May 2023 14:11:47 -0400</pubDate>
+      
+      <guid>http://mynguy.github.io/posts/post4/</guid>
       <description>Today I had the opportunity to meet with Dr. Bowring to delve deeper into XML and binary serialization. Dr. Bowring provided invaluable guidance on how to structure the code by creating separate classes outside the main program. Additionally, we reviewed my JUnit testing for these new classes to ensure accuracy and identify any discrepancies. This blog post will walk you through our discussion and highlight the progress we made towards developing a multi-modular Gradle project for my movie class, paving the way for an exciting GUI application using JavaFX.</description>
     </item>
     
     <item>
       <title>Advancing Serialization and Deserialization with Gradle: Serializing Sets of Movies</title>
-      <link>http://mynguy.github.io/posts/post4/</link>
+      <link>http://mynguy.github.io/posts/post3/</link>
       <pubDate>Mon, 08 May 2023 14:11:47 -0400</pubDate>
       
-      <guid>http://mynguy.github.io/posts/post4/</guid>
+      <guid>http://mynguy.github.io/posts/post3/</guid>
       <description>In this blog post, I will provide an update on my serialization and deserialization Java project under the guidance of Dr. Bowring. During our recent meeting, I presented an upgraded version of the project, now utilizing Gradle for enhanced project management. Additionally, Dr. Bowring assigned me the task of serializing sets of movies, making the project more complex. We also focused on code refinement to improve readability. Furthermore, Dr. Bowring introduced me to JUnit testing.</description>
     </item>
     
     <item>
+      <title>Journey into Computer Vision and Machine Learning Part II</title>
+      <link>http://mynguy.github.io/posts/cv2/</link>
+      <pubDate>Mon, 01 May 2023 20:15:24 -0400</pubDate>
+      
+      <guid>http://mynguy.github.io/posts/cv2/</guid>
+      <description>Welcome to the second part of our ongoing journey into computer vision and machine learning. In this blog post, I am thrilled to provide an update on our progress in learning annotation techniques for creating segmentation masks in instance segmentation. Instance segmentation, which involves detecting object outlines, has been a central focus of our exploration. Over the past month, our dedicated team has been working together, utilizing CVAT as our annotation tool, to produce datasets enriched with segmentation masks.</description>
+    </item>
+    
+    <item>
       <title>Exploring Serialization and Deserialization in Java: A Movie Serialization Project</title>
-      <link>http://mynguy.github.io/posts/post3/</link>
+      <link>http://mynguy.github.io/posts/post2/</link>
       <pubDate>Mon, 24 Apr 2023 22:11:47 -0400</pubDate>
       
-      <guid>http://mynguy.github.io/posts/post3/</guid>
+      <guid>http://mynguy.github.io/posts/post2/</guid>
       <description>In this blog post, I will share my experience working on a serialization and deserialization Java project assigned to me by Dr. Bowring. The project aimed to enhance my understanding of these processes and improve my coding skills. I chose to create a simple movie serialization project, where I serialized and deserialized movie objects containing information such as name, genre, and release date. Throughout the project, I encountered various challenges and sought to improve the code&amp;rsquo;s dynamism, organization, and user-friendliness based on Dr.</description>
     </item>
     
     <item>
       <title>Embarking on a Journey into Computer Vision and Machine Learning</title>
-      <link>http://mynguy.github.io/posts/post2/</link>
+      <link>http://mynguy.github.io/posts/cv1/</link>
       <pubDate>Sun, 09 Apr 2023 19:28:43 -0400</pubDate>
       
-      <guid>http://mynguy.github.io/posts/post2/</guid>
+      <guid>http://mynguy.github.io/posts/cv1/</guid>
       <description>I recently had an initial meeting with a family friend who introduced a fascinating project idea that combines computer vision and machine learning. While my knowledge in the field of computer vision is limited, I felt a surge of anticipation at the prospect of diving into this realm and learning more.
 Our first day together was dedicated to setting up our work environments, establishing meeting schedules, and determining the framework for our project.</description>
     </item>
