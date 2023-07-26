@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Journey into Computer Vision and Machine Learning Part III // My Nguyen Blog</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="My Nguyen" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.3c3c186cd62e563ad6e2f00a89dbee656ab912d1d46f856b5605dd0232521e2a.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Journey into Computer Vision and Machine Learning Part III"/>
+<meta name="twitter:description" content="It has been an eventful month since my last update on our computer vision and machine learning project. Our team has made significant progress, particularly in understanding and utilizing YOLOv8 to train and create powerful computer vision models. In this blog post, I will share the latest developments in our project, including our transition to Roboflow, a user-friendly software platform that has provided us with invaluable resources for training and deploying models."/>
+
+    <meta property="og:title" content="Journey into Computer Vision and Machine Learning Part III" />
+<meta property="og:description" content="It has been an eventful month since my last update on our computer vision and machine learning project. Our team has made significant progress, particularly in understanding and utilizing YOLOv8 to train and create powerful computer vision models. In this blog post, I will share the latest developments in our project, including our transition to Roboflow, a user-friendly software platform that has provided us with invaluable resources for training and deploying models." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://mynguy.github.io/posts/cv3/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-06T14:13:20-04:00" />
+<meta property="article:modified_time" content="2023-06-06T14:13:20-04:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://mynguy.github.io"><img class="app-header-avatar" src="https://media.licdn.com/dms/image/C4E03AQG-9BdIJ7p7Kg/profile-displayphoto-shrink_800_800/0/1668009004667?e=1690416000&amp;v=beta&amp;t=tL6kEdyNHpBGk395rVZBZ1J4DUkxeBYxNllEzAwop40" alt="My Nguyen" /></a>
+      <span class="app-header-title">My Nguyen Blog</span>
+      <p>Upcoming computer science graduate with a passion in machine learning and software development</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/mynguy/" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>Github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+          <a href="https://www.linkedin.com/in/mytoannguyen/" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-linkedin">
+  <title>LinkedIn</title>
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Journey into Computer Vision and Machine Learning Part III</h1>
+      <div class="post-meta">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jun 6, 2023
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          3 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>It has been an eventful month since my last update on our computer vision and machine learning project. Our team has made significant progress, particularly in understanding and utilizing YOLOv8 to train and create powerful computer vision models. In this blog post, I will share the latest developments in our project, including our transition to Roboflow, a user-friendly software platform that has provided us with invaluable resources for training and deploying models. Additionally, I will discuss our exploration of augmentation techniques learned from Roboflow, with the goal of raising our models&rsquo; mean Average Precision (mAP) and accuracy ratings. Let&rsquo;s delve into the details of our journey.</p>
+<p>Since my previous update, our team has dedicated considerable time and effort to learning and implementing YOLOv8 for training our computer vision models. YOLOv8 has proven to be a powerful framework, offering exceptional capabilities for object detection tasks. Through extensive research and hands-on experimentation, we have gained a deeper understanding of YOLOv8&rsquo;s architecture, techniques, and best practices. This knowledge has empowered us to train and create accurate models capable of detecting objects in various environments.</p>
+<p><strong>Transitioning to Roboflow for Enhanced Training and Deployment:</strong>  <br>
+As our project evolved, we made the decision to transition our work to Roboflow, a comprehensive software platform designed to simplify the training and deployment of computer vision models. Roboflow has provided us with a user-friendly interface, vast resources, and invaluable support in our journey. With their powerful tools and seamless integration with popular frameworks like YOLOv8, we have been able to streamline our workflow, enhance model training, and expedite the deployment process.</p>
+<p><strong>Exploring Augmentation Techniques for Improved Performance:</strong>  <br>
+To further elevate the performance of our models, we have delved into the world of augmentation techniques. Roboflow has proven to be an invaluable resource in this regard, offering a wide range of augmentation options to enhance the diversity and quality of our training data. By leveraging techniques such as random rotation, flipping, and scaling, we aim to increase the mAP and accuracy ratings of our models. These augmentation techniques have the potential to enhance the robustness and generalization capabilities of our models, enabling them to perform better in real-world scenarios.</p>
+<p><strong>Future Prospects and Continuous Learning:</strong>    <br>
+As we continue to explore the possibilities of computer vision and machine learning, we are committed to continuous learning and improvement. Our collaboration with Roboflow and the utilization of augmentation techniques are just the beginning of our journey. We plan to further refine our models, explore advanced techniques, and push the boundaries of our project&rsquo;s capabilities. The field of computer vision is constantly evolving, and we are excited to stay ahead of the curve and embrace the new possibilities it presents.</p>
+<p>In this blog post, I provided an update on our computer vision and machine learning project. Our team has made significant strides in mastering YOLOv8 for model training, transitioning to Roboflow for enhanced training and deployment, and exploring augmentation techniques to improve our models&rsquo; performance. The support and resources provided by Roboflow have been instrumental in our progress. As we look ahead, we remain committed to continuous learning and pushing the boundaries of our project&rsquo;s capabilities. Stay tuned for more updates as we delve deeper into the fascinating world of computer vision and machine learning.</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

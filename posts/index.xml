@@ -6,13 +6,23 @@
     <description>Recent content in Posts on My Nguyen Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Jun 2023 14:13:20 -0400</lastBuildDate><atom:link href="http://mynguy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Jul 2023 16:40:33 -0400</lastBuildDate><atom:link href="http://mynguy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Journey into Computer Vision and Machine Learning Part III</title>
+      <title>Unveiling the New Features of movieGradle: A Multi-Modular Movie Library Application</title>
       <link>http://mynguy.github.io/posts/post6/</link>
-      <pubDate>Tue, 06 Jun 2023 14:13:20 -0400</pubDate>
+      <pubDate>Mon, 17 Jul 2023 16:40:33 -0400</pubDate>
       
       <guid>http://mynguy.github.io/posts/post6/</guid>
+      <description>Today&amp;rsquo;s blog post brings an exciting update on my movieGradle project, a multi-modular movie library application focused on serialization and deserialization. Since my last blog update, I&amp;rsquo;ve been diligently working on creating a user-friendly GUI for the app. This involved adjusting my FXML files, utilizing Scenebuilder, and implementing various buttons and features in the code. Let&amp;rsquo;s dive into the breakdown of the latest features:
+Serialization and Deserialization: The application now allows users to serialize their movie library data into both CSV and binary formats.</description>
+    </item>
+    
+    <item>
+      <title>Journey into Computer Vision and Machine Learning Part III</title>
+      <link>http://mynguy.github.io/posts/cv3/</link>
+      <pubDate>Tue, 06 Jun 2023 14:13:20 -0400</pubDate>
+      
+      <guid>http://mynguy.github.io/posts/cv3/</guid>
       <description>It has been an eventful month since my last update on our computer vision and machine learning project. Our team has made significant progress, particularly in understanding and utilizing YOLOv8 to train and create powerful computer vision models. In this blog post, I will share the latest developments in our project, including our transition to Roboflow, a user-friendly software platform that has provided us with invaluable resources for training and deploying models.</description>
     </item>
     
@@ -55,14 +65,14 @@
     <item>
       <title>Exploring Serialization and Deserialization in Java: A Movie Serialization Project</title>
       <link>http://mynguy.github.io/posts/post2/</link>
-      <pubDate>Mon, 24 Apr 2023 22:11:47 -0400</pubDate>
+      <pubDate>Mon, 24 Apr 2023 15:33:01 -0400</pubDate>
       
       <guid>http://mynguy.github.io/posts/post2/</guid>
-      <description>In this blog post, I will share my experience working on a serialization and deserialization Java project assigned to me by Dr. Bowring. The project aimed to enhance my understanding of these processes and improve my coding skills. I chose to create a simple movie serialization project, where I serialized and deserialized movie objects containing information such as name, genre, and release date. Throughout the project, I encountered various challenges and sought to improve the code&amp;rsquo;s dynamism, organization, and user-friendliness based on Dr.</description>
+      <description>In this blog post, I will share my experience working on a serialization and deserialization Java project assigned to me by Dr. Bowring. The project aimed to enhance my understanding of these processes and improve my coding skills. I chose to create a simple movie serialization project, where I serialized and deserialized movie objects containing information such as name, genre, and release date. Throughout the project, I encountered various challenges and sought to improve the code’s dynamism, organization, and user-friendliness based on Dr.</description>
     </item>
     
     <item>
-      <title>Embarking on a Journey into Computer Vision and Machine Learning</title>
+      <title>Journey into Computer Vision and Machine Learning Part I</title>
       <link>http://mynguy.github.io/posts/cv1/</link>
       <pubDate>Sun, 09 Apr 2023 19:28:43 -0400</pubDate>
       
