@@ -6,7 +6,25 @@
     <description>Recent content on My Nguyen Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Aug 2023 12:11:10 -0700</lastBuildDate><atom:link href="http://mynguy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Sep 2023 14:50:00 -0400</lastBuildDate><atom:link href="http://mynguy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring Testing with Dr. Bowring</title>
+      <link>http://mynguy.github.io/posts/post9/</link>
+      <pubDate>Fri, 01 Sep 2023 14:50:00 -0400</pubDate>
+      
+      <guid>http://mynguy.github.io/posts/post9/</guid>
+      <description>In my initial Fall meeting with Dr. Bowring, we delved into the intriguing realm of software testing. The session commenced with an engaging testing assignment, challenging my ability to think creatively when crafting inputs and oracles for special test cases. This exercise revolved around a classic problem known as the &amp;ldquo;Triangle Problem,&amp;rdquo; where three input values determine whether a triangle is scalene, isosceles, or equilateral (as detailed in G. Myers&amp;rsquo; book from 1979).</description>
+    </item>
+    
+    <item>
+      <title>The Exciting Countdown to Graduation and Future Endeavors</title>
+      <link>http://mynguy.github.io/posts/post8/</link>
+      <pubDate>Mon, 28 Aug 2023 09:25:00 -0400</pubDate>
+      
+      <guid>http://mynguy.github.io/posts/post8/</guid>
+      <description>As I approach my final semester at CofC, the anticipation of earning my first bachelor&amp;rsquo;s degree fills me with immense pride and joy. This upcoming milestone not only signifies a personal achievement but also a momentous occasion that will undoubtedly make my family proud. Being the youngest and the last one in my family to reach this academic summit, I am thrilled to be a part of something truly significant.</description>
+    </item>
+    
     <item>
       <title>Elevating User Experience: Latest Updates in the Gradle-Based Movie Application</title>
       <link>http://mynguy.github.io/posts/post7/</link>
