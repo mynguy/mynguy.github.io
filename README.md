@@ -1,1 +1,1 @@
-ECHO is on.
+### Link to Blog -   https://mynguy.github.io/
