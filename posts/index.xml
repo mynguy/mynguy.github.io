@@ -6,7 +6,18 @@
     <description>Recent content in Posts on My Nguyen Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Sep 2023 14:50:00 -0400</lastBuildDate><atom:link href="http://mynguy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Sep 2023 22:04:03 -0400</lastBuildDate><atom:link href="http://mynguy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing, Pull Requests, and Ruby</title>
+      <link>http://mynguy.github.io/posts/post10/</link>
+      <pubDate>Tue, 12 Sep 2023 22:04:03 -0400</pubDate>
+      
+      <guid>http://mynguy.github.io/posts/post10/</guid>
+      <description>In my recent meeting with Dr. Bowring, we discussed the tasks assigned to me, which involve diving into software testing and contributing to the Cirdles Tripoli Project.
+The Process:
+My journey began by forking the Tripoli project and setting up the upstream and origin on my computer, allowing me to start contributing to the codebase. This experience was particularly thrilling as it marked my first attempt at making a pull request, a milestone in my development journey.</description>
+    </item>
+    
     <item>
       <title>Exploring Testing with Dr. Bowring</title>
       <link>http://mynguy.github.io/posts/post9/</link>

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Testing, Pull Requests, and Ruby // My Nguyen Blog</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="My Nguyen" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.3c3c186cd62e563ad6e2f00a89dbee656ab912d1d46f856b5605dd0232521e2a.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Testing, Pull Requests, and Ruby"/>
+<meta name="twitter:description" content="In my recent meeting with Dr. Bowring, we discussed the tasks assigned to me, which involve diving into software testing and contributing to the Cirdles Tripoli Project.
+The Process:
+My journey began by forking the Tripoli project and setting up the upstream and origin on my computer, allowing me to start contributing to the codebase. This experience was particularly thrilling as it marked my first attempt at making a pull request, a milestone in my development journey."/>
+
+    <meta property="og:title" content="Testing, Pull Requests, and Ruby" />
+<meta property="og:description" content="In my recent meeting with Dr. Bowring, we discussed the tasks assigned to me, which involve diving into software testing and contributing to the Cirdles Tripoli Project.
+The Process:
+My journey began by forking the Tripoli project and setting up the upstream and origin on my computer, allowing me to start contributing to the codebase. This experience was particularly thrilling as it marked my first attempt at making a pull request, a milestone in my development journey." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://mynguy.github.io/posts/post10/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-09-12T22:04:03-04:00" />
+<meta property="article:modified_time" content="2023-09-12T22:04:03-04:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://mynguy.github.io"><img class="app-header-avatar" src="/images/profile.JPG" alt="My Nguyen" /></a>
+      <span class="app-header-title">My Nguyen Blog</span>
+      <p>Upcoming computer science graduate with a passion in machine learning and software development</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/mynguy/" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>Github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+          <a href="https://www.linkedin.com/in/mytoannguyen/" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-linkedin">
+  <title>LinkedIn</title>
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Testing, Pull Requests, and Ruby</h1>
+      <div class="post-meta">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Sep 12, 2023
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          2 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>In my recent meeting with Dr. Bowring, we discussed the tasks assigned to me, which involve diving into software testing and contributing to the Cirdles Tripoli Project.</p>
+<p><strong>The Process:</strong></p>
+<p>My journey began by forking the Tripoli project and setting up the upstream and origin on my computer, allowing me to start contributing to the codebase. This experience was particularly thrilling as it marked my first attempt at making a pull request, a milestone in my development journey.</p>
+<p>I embarked on the task of creating JUnit test cases, a fundamental aspect of ensuring the reliability and robustness of software. I successfully tested three classes, one of which involved the Tripoli Serialization method—a subject I had the pleasure of exploring over the summer.</p>
+<p>During our discussion, Dr. Bowring introduced me to Codacy Static Code Analysis—a linting software that aids in identifying issues within pull requests. Additionally, I was introduced to Travis CI, an automation and DevOps tool that streamlines code testing and builds.</p>
+<p><strong>Looking Ahead:</strong></p>
+<p>As I look to the week ahead, Dr. Bowring has assigned me the task of creating more test cases. Notably, I&rsquo;ll be utilizing MATLAB to validate the mathematical calculations within a complex class that involves covariance matrices. My aim is to continue enhancing the program&rsquo;s reliability and functionality through comprehensive testing.</p>
+<p><strong>Personal Goals:</strong></p>
+<p>Outside of my assigned tasks, I&rsquo;ve been pursuing personal goals. I recently completed my first Ruby project, which encompasses CRUD operations. This endeavor allowed me to expand my programming knowledge by delving into Ruby, devising CRUD functionalities, configuring the database with SQLite, and enhancing the project with Bootstrap and Gemfiles.</p>
+<p>With exciting developments both in my contributions to open-source projects and my personal programming journey, I&rsquo;m eager to embrace the challenges and opportunities that lie ahead. Thank you for reading!</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
