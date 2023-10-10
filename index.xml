@@ -6,7 +6,19 @@
     <description>Recent content on My Nguyen Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Sep 2023 22:04:03 -0400</lastBuildDate><atom:link href="http://mynguy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Oct 2023 22:11:16 -0400</lastBuildDate><atom:link href="http://mynguy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring Matlab for Rigorous Testing</title>
+      <link>http://mynguy.github.io/posts/post11/</link>
+      <pubDate>Tue, 03 Oct 2023 22:11:16 -0400</pubDate>
+      
+      <guid>http://mynguy.github.io/posts/post11/</guid>
+      <description>Today, Dr. Bowring and I had a productive meeting focused on JUnit Testing. Our primary goal was to utilize Matlab for thorough testing of the mathematical calculations behind Tripoli formulas. Here&amp;rsquo;s how we went about it:
+Setting Up Testing in Matlab:
+To kick off our testing efforts, we leveraged Matlab&amp;rsquo;s capabilities by creating a Testing object within the Java Test class.
+After that, we carefully collected all the needed data for thorough testing of the specific math we were examining.</description>
+    </item>
+    
     <item>
       <title>Testing, Pull Requests, and Ruby</title>
       <link>http://mynguy.github.io/posts/post10/</link>
