@@ -6,7 +6,17 @@
     <description>Recent content on My Nguyen Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Oct 2023 22:11:16 -0400</lastBuildDate><atom:link href="http://mynguy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Nov 2023 18:16:05 -0300</lastBuildDate><atom:link href="http://mynguy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Celebrating Milestones: A Month of Achievements and Reflection</title>
+      <link>http://mynguy.github.io/posts/post12/</link>
+      <pubDate>Tue, 28 Nov 2023 18:16:05 -0300</pubDate>
+      
+      <guid>http://mynguy.github.io/posts/post12/</guid>
+      <description>It&amp;rsquo;s been an eventful month since our last update, filled with significant milestones and valuable learning experiences. Let&amp;rsquo;s dive into the latest developments, particularly focusing on the completion of my Junit pull request project.
+In our previous discussions, I shared the challenges and goals associated with my project, which involved utilizing MATLAB to test the mathematical aspects of the Tripoli project. I&amp;rsquo;m thrilled to report that the project was successfully completed, and my pull request received the ultimate validation – approval and merging into the main branch.</description>
+    </item>
+    
     <item>
       <title>Exploring Matlab for Rigorous Testing</title>
       <link>http://mynguy.github.io/posts/post11/</link>
